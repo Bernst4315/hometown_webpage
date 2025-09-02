@@ -1,0 +1,15 @@
+#activity-container{
+    display: flex;
+
+}
+
+.activity {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid black;
+    margin: 8px;
+    padding: 8px;
+    width: 250px;
+    height: 250px;
+}
