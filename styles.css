@@ -9,7 +9,10 @@
 #header-section{
     background-image: url("./images/colorado_springs2.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 50% 100%;
+    background-position: center;
+    image-rendering: pixelated;
+    background-color: #241205;
     width: 100%;
     height: 500px;
     color: #e4dcca;
@@ -18,18 +21,33 @@
     text-shadow: 0 0 2px black;
 }
 
+#activity-section{
+    text-align: center;
+    background-color: #8eac84;
+}
+
+#activity-section h3 {
+    font-size: 30px;
+}
+
 #activity-container{
     display: flex;
+    justify-content: center;
 
 }
 
 .activity {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
     border: 1px solid black;
-    margin: 8px;
+    margin: 16px;
     padding: 8px;
     width: 250px;
     height: 250px;
+    background-color: #e4dcca;
+    border-radius: 5px;
+}
+
+img {
+    width: 100%;
+    height: 125px;
+    border-radius: 50%;
 }
